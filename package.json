@@ -1,0 +1,31 @@
+{
+  "name": "keyword-search",
+  "version": "0.1.0",
+  "description": "Determine whether a given query string contains keywords in a given item string, with a specified margin for spelling error based on the hamming distance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannesmcman/keyword-search.git"
+  },
+  "keywords": [
+    "search",
+    "keyword",
+    "hamming"
+  ],
+  "author": "Johannes Carlsen <hannes.mcman@gmail.com> (https://hannesmcman.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hannesmcman/keyword-search/issues"
+  },
+  "homepage": "https://github.com/hannesmcman/keyword-search#readme",
+  "dependencies": {
+    "hamming": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
