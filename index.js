@@ -9,7 +9,7 @@ module.exports = function (query, item, accuracy) {
 		itemWords.some(
 			word =>
 				keyword.length <= word.length &&
-				hamming(keyword, word.slice(0, keyword.length)) <= accuracy,
-		),
+				hamming(keyword, word.slice(0, keyword.length)) <= accuracy
+		)
 	);
 };
