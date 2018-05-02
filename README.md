@@ -12,7 +12,7 @@ Determine whether a given query string contains keywords in a given item string,
 
 ```javascript
 var keywordSearch = require('keyword-search');
-keywordSearch('hello world', 'hellq wold', 1);
+keywordSearch('hello world', 'hellq woeld', 1);
 //returns true
 ```
 
