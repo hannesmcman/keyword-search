@@ -1,6 +1,6 @@
 {
   "name": "keyword-search",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Determine whether a given query string contains keywords in a given item string, with a specified margin for spelling error based on the hamming distance.",
   "main": "index.js",
   "scripts": {
